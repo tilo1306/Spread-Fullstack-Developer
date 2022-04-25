@@ -11,7 +11,15 @@ ul {
 ul li a {
   text-decoration: none;
 }
+header {
+  align-items: center;
+  background-color: #122a57;
+  display: flex;
+  height: 100px;
+}
 .flex-container {
   display: flex;
   max-width: 992px;
+  margin: auto;
+  width: 100%;
 }
