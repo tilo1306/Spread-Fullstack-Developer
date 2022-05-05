@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  margin-top: 0;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+th {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+th:nth-last-child(1) {
+  width: 30px;
+}
+th:nth-last-child(2) {
+  width: 170px;
+}
+th:nth-last-child(3) {
+  width: 100px;
+}
+th:nth-last-child(4) {
+  width: 100px;
+}
+td:nth-last-child(1) {
+  width: 30px;
+}
+
+td:nth-last-child(2) {
+  width: 170px;
+}
+td:nth-last-child(3) {
+  width: 100px;
+}
+td:nth-last-child(4) {
+  width: 100px;
+}
+
+@media (max-width: 471px) {
+  #nome {
+    width: 249px;
+  }
+  #cadastrar {
+    margin-left: -5px;
+    width: 70px;
+  }
+  #placa {
+    width: 179px;
+  }
+}

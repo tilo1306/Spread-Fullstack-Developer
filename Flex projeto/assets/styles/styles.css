@@ -112,7 +112,7 @@ header .menu {
 }
 .list-servicos {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .list-servicos .item-servicos {
   text-align: center;
@@ -234,7 +234,7 @@ footer .footer {
     flex-direction: column;
   }
   .item-servicos img {
-    width: 50%;
+    width: 20%;
     margin: auto;
   }
   .list-planos {
